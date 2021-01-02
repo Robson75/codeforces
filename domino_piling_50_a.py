@@ -11,6 +11,7 @@ if __name__ == "__main__":
     elif n % 2 == 0:
         max_tiles = n / 2 * m
     else:
+        # both m and n are odd
         max_tiles = m // 2 + n // 2 * m
     print(int(max_tiles))
 
