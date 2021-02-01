@@ -3,7 +3,7 @@ class WorldCup:
     pass
 
 
-if __name__ ==  "__main__":
+if __name__ == "__main__":
     in_data = list(map(int, input().split()))
     nr_of_teams = in_data[0]
     id_1 = in_data[1]
