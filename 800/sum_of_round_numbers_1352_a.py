@@ -11,7 +11,6 @@ if __name__ == "__main__":
         multiplier = 1
         k = 0
         for nr in input_nr[::-1]:
-
             if nr != '0':
                 k += 1
                 out_nr = multiplier * int(nr)
